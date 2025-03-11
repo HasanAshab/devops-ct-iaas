@@ -15,5 +15,5 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "portfolio-prod-centralindia-sampleapi-RG"
-  location = "centralindia"
+  location = "Central India"
 }
