@@ -4,14 +4,14 @@ on:
     branches:
       - main
     paths:
-      - *.tf
+      - '*.tf'
 
   pull_request:
     branches:
       - main
     paths:
-      - *.tf
-  
+      - '*.tf'
+
   workflow_dispatch:
 
 jobs:
