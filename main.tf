@@ -22,5 +22,4 @@ resource "azurerm_resource_group" "rg" {
 resource "azurerm_virtual_machine" "vm" {
   name = "portfolio-prod-centralindia-sampleapi"
   location = "Central India"
-  
 }
